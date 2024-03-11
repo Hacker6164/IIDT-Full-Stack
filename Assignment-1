@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            width:98vw;
+            height: 97.5vh;
+            background-color: #fff;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .lt-gr{
+            background-color: lightgreen;
+        }
+        .gr-700{
+            background-color: rgb(81, 235, 81);
+        }
+        table, th, td{
+            width: 800px;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: rgb(16, 104, 16);
+            color: #fff;
+        }
+    </style>
+    <title>Assignment-1</title>
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="6">STUDENTS MARK SHEET</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="lt-gr">Name</td>
+                    <td class="gr-700">Maths</td>
+                    <td class="lt-gr">Science</td>
+                    <td class="gr-700">English</td>
+                    <td class="lt-gr">Physics</td>
+                    <td class="gr-700">GK</td>
+                </tr>
+                <tr>
+                    <td class="lt-gr">David</td>
+                    <td class="gr-700">85</td>
+                    <td class="lt-gr">87</td>
+                    <td class="gr-700">88</td>
+                    <td class="lt-gr">92</td>
+                    <td class="gr-700">88</td>
+                </tr>
+                <tr>
+                    <td class="lt-gr">Richard</td>
+                    <td class="gr-700">91</td>
+                    <td class="lt-gr">81</td>
+                    <td class="gr-700">78</td>
+                    <td class="lt-gr">71</td>
+                    <td class="gr-700">74</td>
+                </tr>
+                <tr>
+                    <td class="lt-gr">John</td>
+                    <td class="gr-700">81</td>
+                    <td class="lt-gr">86</td>
+                    <td class="gr-700">88</td>
+                    <td class="lt-gr">84</td>
+                    <td class="gr-700">92</td>
+                </tr>
+                <tr>
+                    <td class="lt-gr">Tony</td>
+                    <td class="gr-700">84</td>
+                    <td class="lt-gr">86</td>
+                    <td class="gr-700">87</td>
+                    <td class="lt-gr">82</td>
+                    <td class="gr-700">91</td>
+                </tr>
+                <tr>
+                    <td class="lt-gr">Scott</td>
+                    <td class="gr-700">71</td>
+                    <td class="lt-gr">79</td>
+                    <td class="gr-700">82</td>
+                    <td class="lt-gr">88</td>
+                    <td class="gr-700">89</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
